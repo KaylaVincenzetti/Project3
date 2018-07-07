@@ -1,3 +1,4 @@
+
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Home from "./pages/Home";
@@ -5,10 +6,20 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import anxiety from "./pages/anxiety";
 import depression from "./pages/depression";
 import alternative from "./pages/alternative";
+import Header from './components/Header/Header';
+import Navbar from './components/Nav/Navbar';
+import Footer from './components/Footer/Footer';
+import Content from './components/Content/Content';
 
 
 const App = () => (
+  <div>
+  <Header />
+  <Navbar />
+  <Content />
+  
   <Router>
+   
    
       <Switch>
         {/* <Route exact path="/" component={Home} /> */}
@@ -18,8 +29,13 @@ const App = () => (
         <Route exact path="/depression" component={depression} />
         
       </Switch>
+      
     
   </Router>
+  <Footer />
+  </div>
+
 );
 
 export default App;
+

@@ -2,19 +2,35 @@ import React, { Component } from 'react';
 
 
 
-import Footer from '../components/Footer/Footer';
-import Header from '../components/Header/Header';
-import Content from '../components/Content/Content';
+
+import Form from '../components/Form/Form';
 import Flexbox from 'flexbox-react';
 
+
 class depression extends Component {
+  state = {
+    value: ''
+  };
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+  handleSubmit(event) {
+    alert('An essay was submitted: ' + this.state.value);
+    event.preventDefault();
+  }
   render() {
     return (
       <div className="App">
       <Flexbox flexDirection="column" minHeight="100vh">
-       <Header />
-       <Content />
-        <Footer />
+      
+       
+       
+       <Form 
+       handleChange = {this.handleChange}
+       handleSubmit = {this.handleSubmit}
+       value = {this.state.value}
+       />
+        
         </Flexbox>
         
       </div>
