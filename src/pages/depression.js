@@ -33,7 +33,7 @@ class depression extends Component {
       <div className="App">
       <Flexbox flexDirection="column" minHeight="100vh">
       <div className="mainContent">
-      <seciton id="depressionContent"> 
+      <section id="depressionContent"> 
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Mauris metus. Fusce suscipit libero eget elit. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Proin mattis lacinia justo. Duis risus. Praesent dapibus. Praesent id justo in neque elementum ultrices. Duis risus. Et harum quidem rerum facilis est et expedita distinctio. Nulla non lectus sed nisl molestie malesuada. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Duis condimentum augue id magna semper rutrum. In rutrum. Integer in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque ipsum. In rutrum. Proin mattis lacinia justo.</p>
 
         <p>Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Pellentesque pretium lectus id turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Aenean vel massa quis mauris vehicula lacinia. Nullam sit amet magna in magna gravida vehicula. Nulla non arcu lacinia neque faucibus fringilla. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Cras pede libero, dapibus nec, pretium sit amet, tempor quis.</p>
@@ -50,7 +50,7 @@ class depression extends Component {
 
         <p>Mauris dictum facilisis augue. Etiam bibendum elit eget erat. Pellentesque arcu. Mauris metus. Nullam at arcu a est sollicitudin euismod. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Pellentesque sapien. Phasellus rhoncus. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Mauris dictum facilisis augue. Nam quis nulla. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Sed convallis magna eu sem. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Integer lacinia. Cras pede libero, dapibus nec, pretium sit amet, tempor quis.</p>
        
-        </seciton>
+        </section>
        
        
           <img id="imageRight" src="https://static.timesofisrael.com/www/uploads/2018/03/depression-1.jpg" alt="depression meme" />
