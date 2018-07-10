@@ -24,8 +24,9 @@ import React from 'react';
     const Form = (props) => (
         <form onSubmit={props.handleSubmit}>
           <label>
+            User Name: <input type="text" name="userName" value={props.userName} /><br/>
             Comments:
-            <textarea value={props.value} onChange={props.handleChange} />
+            <textarea name="comment" value={props.value} onChange={props.handleChange} />
           </label>
           <input type="submit" value="Submit" />
         </form>

@@ -1,6 +1,8 @@
-
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import Auth from './Auth/Auth.js';
+
+
 // import Home from "./pages/Home";
 
 import anxiety from "./pages/anxiety";
@@ -11,6 +13,8 @@ import Navbar from './components/Nav/Navbar';
 import Footer from './components/Footer/Footer';
 import Content from './components/Content/Content';
 
+// const auth = new Auth();
+// auth.login();
 
 const App = () => (
   <div>

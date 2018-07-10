@@ -5,15 +5,14 @@ import "./Navbar.css";
 const Navbar = () => (
 <Flexbox element="navbar">
   
-  <nav>
+  <nav class="navbar">
   <ul class="container">
-    <li class="goHome">Home</li>
-    <li>Profile</li>
-    <li class="search">
-      <input type="text" class="search-input" placeholder="Search" />
-    </li>
-    <li>Logout</li>
-  </ul>
+    <li class="goHome">Home<a href=""></a></li>
+    <li><a href="/depression">Depression</a></li>
+    <li><a href="/anxiety">Anxiety</a></li>
+    <li><a href="/alternative">Altrenative</a></li>
+    <li><a href="">Login</a></li>
+    </ul>
 </nav>
 
 </Flexbox>
